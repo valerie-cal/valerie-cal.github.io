@@ -23,9 +23,9 @@ const greeting = {
   logo_name: "ValerieEng",
   nickname: "val",
   subTitle:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+    "A passionate student who loves working on end to end products that develop sustainable and scalable systems to create impact.",
   resumeLink:
-    "https://drive.google.com/file/d/1bXRknv_h-XI_3CQ3SGPteGODtvEb7YvI/view?usp=sharing",
+    "https://drive.google.com/file/d/1DFVFBR5qTBIGfdo0CbTdfhc0akFXXnVp/view?usp=sharing",
   portfolio_repository: "https://github.com/valerie-cal/masterPortfolio",
   githubProfile: "https://github.com/valerie-cal",
 };
@@ -455,52 +455,24 @@ const experience = {
   header_image_path: "experience.svg",
   sections: [
     {
-      title: "Work",
+      title: "Client Work",
       work: true,
       experiences: [
         {
-          title: "Machine Learning Engineer",
-          company: "TikTok Inc.",
-          company_url: "https://www.tiktok.com/en/",
-          logo_path: "tiktok_logo.png",
-          duration: "June 2023 - Present",
-          location: "San Jose, CA, USA",
+          title: "Full Stack Software Developer",
+          company: "Passport Inc.",
+          company_url: "https://www.passportinc.com/",
+          logo_path: "passport_logo.png",
+          duration: "Sep 2024 - Present",
+          location: "Charlotte, NC, USA",
           description:
-            "Improving ads ranking models on the core TikTok product. Experience working on modeling two-tower architectures like DeepFM, Wide & deep learning, etc. Working on Large Language Models (LLM) pretraining and Large Multi-modal Model (LMM) finetuning strategies.",
+            "Developing Sagemaker ML/AI model with RAG/LLMs to generate insights + analysis on Freshdesk ticket data. Porting screens for Passport’s new client-facing portal (React.js, Node.js, AWS) used by 800+ cities nationwide. Reducing on-call engineer hours by 15% for a $390M company through triage classification of client issue severity",
+          // description: [
+          //   "⚡ Developing Sagemaker ML/AI model with RAG/LLMs to generate insights + analysis on Freshdesk ticket data",
+          //   "⚡ Porting screens for Passport’s new client-facing portal (React.js, Node.js, AWS) used by 800+ cities nationwide",
+          //   "⚡ Reducing on-call engineer hours by 15% for a $390M company through triage classification of client issue severity",
+          // ],
           color: "#000000",
-        },
-        {
-          title: "Associate AI Engineer",
-          company: "Legato Health Technology",
-          company_url: "https://legatohealthtech.com/",
-          logo_path: "legato_logo.png",
-          duration: "June 2020 - Aug 2021",
-          location: "Hyderabad, Telangana",
-          description:
-            "I am working on automating healthcare products. The projects involve automation for process improvements and for significantly enhancing the profits. I am currently working on Cancer Survival and Reoccurence Prediction. Our goal is to make AI system which scales and removes doctor dependency as much as possible.",
-          color: "#0879bf",
-        },
-        {
-          title: "Android and ML Developer",
-          company: "Muffito Incorporation",
-          company_url: "https://www.linkedin.com/company/muffito-inc/about/",
-          logo_path: "muffito_logo.png",
-          duration: "May 2018 - Oct 2018",
-          location: "Pune, Maharashtra",
-          description:
-            "I have created complete Android Application for locating Pub, Bar and beverage shops around you. I have also worked on implementation of algorithms for Face Detection, Text extraction from Image. I was involved in a team for creating complete software architecure of mobile and web application as well as admin panel for company.",
-          color: "#9b1578",
-        },
-        {
-          title: "Android Developer",
-          company: "FreeCopy Pvt. Ltd.",
-          company_url: "https://www.linkedin.com/company/freecopy/about/",
-          logo_path: "freecopy_logo.png",
-          duration: "Nov 2017 - Dec 2017",
-          location: "Ahmedabad, Gujarat",
-          description:
-            "FreeCopy is the Start up from Indian Institute of Management, Ahmedabad. I have changed the integration of the whole app from Google to Firebase. I learnt the efﬁcient ways of Data communications like Retroﬁt, Eventbus etc. I experienced the real time start up. I learnt the Design thinking of UI on perspective of People.",
-          color: "#fc1f20",
         },
       ],
     },
@@ -508,14 +480,14 @@ const experience = {
       title: "Internships",
       experiences: [
         {
-          title: "Machine Learning Intern",
-          company: "TikTok Inc.",
-          company_url: "https://www.tiktok.com/en/",
-          logo_path: "tiktok_logo.png",
-          duration: "May 2022 - Aug 2022",
-          location: "San Francisco, USA",
+          title: "Software Engineering (Machine Learning) Intern",
+          company: "Scaled Entelechy",
+          company_url: "https://www.google.com/",
+          logo_path: "scaled_logo.png",
+          duration: "Jun 2024 - Oct 2024",
+          location: "Irvine, USA",
           description:
-            "Building new features on the backend recommendation system, specifically ranking algorithms for Ads that touch hundreds of millions of people around the world. Improving online and offline content ranking algorithms by performing hard sample data replays for training steps.",
+            "Built full-stack SAT Flashcard webapp from 0 to 1 for 5000+ high school students. Implemented learning model with sklearn to progressively increase acuity of tests and boost retention. Designed front-end UI, constructing interface with HTML/CSS, Node, and Postgres.",
           color: "#000000",
         },
         {

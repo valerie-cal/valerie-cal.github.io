@@ -49,7 +49,7 @@ class Header extends Component {
                 </NavLink>
               </li>
               <li>
-                <NavLink
+                {/* <NavLink
                   to="#education"
                   className="navlink"
                   activeStyle={{ fontWeight: "bold" }}
@@ -58,31 +58,40 @@ class Header extends Component {
                   onMouseOut={(event) => onMouseOut(event)}
                 >
                   Education
-                </NavLink>
+                </NavLink> */}
+                <a
+                  href="#education"
+                  style={{ color: theme.text }}
+                  activeStyle={{ fontWeight: "bold" }}
+                  onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
+                  onMouseOut={(event) => onMouseOut(event)}
+                >
+                  Education
+                </a>
               </li>
               <li>
-                <NavLink
-                  to="/experience"
-                  tag={Link}
+                <a
+                  href="#experience"
+                  // tag={Link}
                   activeStyle={{ fontWeight: "bold" }}
                   style={{ color: theme.text }}
                   onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
                   onMouseOut={(event) => onMouseOut(event)}
                 >
                   Experience
-                </NavLink>
+                </a>
               </li>
               <li>
-                <NavLink
-                  to="/projects"
-                  tag={Link}
+                <a
+                  href="#projects"
+                  // tag={Link}
                   activeStyle={{ fontWeight: "bold" }}
                   style={{ color: theme.text }}
                   onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
                   onMouseOut={(event) => onMouseOut(event)}
                 >
                   Projects
-                </NavLink>
+                </a>
               </li>
               <li>
                 <NavLink
